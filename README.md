@@ -1,8 +1,8 @@
-# Memos - Open Source, Self-hosted, Your Notes, Your Way
+# Memos-Quan - JUST FOR FUN, FOR EASY SHARE.
 
 <img align="right" height="96px" src="https://www.usememos.com/logo-rounded.png" alt="Memos" />
 
-An open-source, self-hosted note-taking solution designed for seamless deployment and multi-platform access. Experience effortless plain text writing with pain-free, complemented by robust Markdown syntax support for enhanced formatting.
+基于 An open-source, self-hosted note-taking solution designed for seamless deployment and multi-platform access. Experience effortless plain text writing with pain-free, complemented by robust Markdown syntax support for enhanced formatting. 新增了朋友圈样式。
 
 <a href="https://www.usememos.com">Home Page</a> •
 <a href="https://www.usememos.com/blog">Blogs</a> •
@@ -15,15 +15,6 @@ An open-source, self-hosted note-taking solution designed for seamless deploymen
 </p>
 
 ![demo](https://www.usememos.com/demo.png)
-
-## Main Features
-
-- **Privacy First** 🏠: Take control of your data. All runtime data is securely stored in your local database.
-- **Create at Speed** ✍️: Save content as plain text for quick access, with Markdown support for fast formatting and easy sharing.
-- **Lightweight but Powerful** 🤲: Built with Go, React.js, and a compact architecture, our application delivers powerful performance in a lightweight package.
-- **Customizable** 🧩: Easily customize your server name, icon, description, system style, and execution scripts to make it uniquely yours.
-- **Open Source** 🦦: Memos embraces the future of open source, with all code available on GitHub for transparency and collaboration.
-- **Free to Use** 💸: Enjoy all features completely free, with no charges ever for any content.
 
 ## Deploy with Docker in seconds
 
@@ -47,10 +38,6 @@ Contributions are what make the open-source community such an amazing place to l
 If you find Memos helpful, please consider sponsoring us. Your support will help us to continue developing and maintaining the project.
 
 ❤️ Thanks to the following sponsors and backers: **[yourselfhosted](https://github.com/yourselfhosted)**, **[Burning_Wipf](https://github.com/KUKARAF)**, _[...see more](https://github.com/sponsors/usememos)_.
-
-## Star history
-
-[![Star History Chart](https://api.star-history.com/svg?repos=usememos/memos&type=Date)](https://star-history.com/#usememos/memos&Date)
 
 ## Other Projects
 

@@ -6,7 +6,7 @@ COPY . .
 
 WORKDIR /frontend-build/web
 
-RUN corepack enable && pnpm i --frozen-lockfile
+RUN corepack enable && pnpm i
 
 RUN pnpm build
 
