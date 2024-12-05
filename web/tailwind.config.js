@@ -6,6 +6,12 @@ module.exports = {
   prefix: "",
   theme: {
     extend: {
+      fontFamily: {
+        "misans-medium": ["MiSans-Medium", "sans-serif"],
+        "misans-bold": ["MiSans-Bold", "sans-serif"],
+        "misans-latin-medium": ["MiSansLatin-Medium", "sans-serif"],
+        "misans-latin-bold": ["MiSansLatin-Bold", "sans-serif"],
+      },
       colors: {
         primary: {
           DEFAULT: "#0d9488", // Teal 600

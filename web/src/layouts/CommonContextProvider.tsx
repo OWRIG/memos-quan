@@ -26,11 +26,11 @@ const CommonContextProvider = ({ children }: { children: React.ReactNode }) => {
   const userStore = useUserStore();
   const [initialized, setInitialized] = useState(false);
   const [commonContext, setCommonContext] = useState<Pick<Context, "locale" | "appearance" | "profile">>({
-    locale: "en",
+    locale: "zh-Hans",
     appearance: "system",
     profile: WorkspaceProfile.fromPartial({}),
   });
-  const [locale] = useLocalStorage("locale", "en");
+  const [locale] = useLocalStorage("locale", "zh-Hans");
   const [appearance] = useLocalStorage("appearance", "system");
 
   useEffect(() => {
@@ -47,7 +47,7 @@ const CommonContextProvider = ({ children }: { children: React.ReactNode }) => {
         workspaceSettingStore.getWorkspaceSettingByKey(WorkspaceSettingKey.GENERAL).generalSetting ||
         WorkspaceGeneralSetting.fromPartial({});
       setCommonContext({
-        locale: locale || workspaceGeneralSetting.customProfile?.locale || "en",
+        locale: locale || workspaceGeneralSetting.customProfile?.locale || "zh-Hans",
         appearance: appearance || workspaceGeneralSetting.customProfile?.appearance || "system",
         profile: workspaceProfile,
       });

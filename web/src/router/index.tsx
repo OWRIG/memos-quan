@@ -10,6 +10,7 @@ import Explore from "@/pages/Explore";
 import Home from "@/pages/Home";
 import Inboxes from "@/pages/Inboxes";
 import MemoDetail from "@/pages/MemoDetail";
+import Moments from "@/pages/Moments";
 import NotFound from "@/pages/NotFound";
 import PermissionDenied from "@/pages/PermissionDenied";
 import Resources from "@/pages/Resources";
@@ -27,6 +28,7 @@ export enum Routes {
   EXPLORE = "/explore",
   ABOUT = "/about",
   AUTH = "/auth",
+  MOMENTS = "/moments",
 }
 
 const router = createBrowserRouter([
@@ -55,6 +57,10 @@ const router = createBrowserRouter([
             element: <AuthCallback />,
           },
         ],
+      },
+      {
+        path: Routes.MOMENTS,
+        element: <Moments />,
       },
       {
         path: Routes.ROOT,

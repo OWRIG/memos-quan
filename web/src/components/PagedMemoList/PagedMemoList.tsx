@@ -80,7 +80,6 @@ const PagedMemoList = (props: Props) => {
     </>
   );
 
-  // In case of md screen, we don't need pull to refresh.
   if (md) {
     return children;
   }

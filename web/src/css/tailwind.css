@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
+@layer base {
+  html {
+    font-family: "MiSans", sans-serif;
+  }
+}
+
+@layer components {
   .hide-scrollbar {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */

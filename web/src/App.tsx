@@ -13,6 +13,7 @@ const App = () => {
   const { i18n } = useTranslation();
   const navigateTo = useNavigateTo();
   const { mode, setMode } = useColorScheme();
+
   const workspaceSettingStore = useWorkspaceSettingStore();
   const userStore = useUserStore();
   const commonContext = useCommonContext();
